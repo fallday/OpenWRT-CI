@@ -12,6 +12,7 @@ CONFIG_PACKAGE_luci-app-wolplus=n
 #删除插件
 CONFIG_PACKAGE_luci-app-wol=y
 #参数调整
+CONFIG_USE_APK=n
 CONFIG_CCACHE=y
 CONFIG_DEVEL=y
 CONFIG_TARGET_MULTI_PROFILE=y
@@ -94,7 +95,7 @@ CONFIG_PACKAGE_sgdisk=y
 CONFIG_PACKAGE_usbmuxd=y
 CONFIG_PACKAGE_usbutils=y
 #Swap
-CONFIG_PACKAGE_zram-swap=y
+CONFIG_PACKAGE_zram-swap=m
 #包调整
 CONFIG_PACKAGE_tcpdump=y
 CONFIG_PACKAGE_socat=y
@@ -102,14 +103,12 @@ CONFIG_PACKAGE_iputils-tracepath=y
 CONFIG_PACKAGE_nginx-ssl=y
 CONFIG_PACKAGE_openssh-client=y
 CONFIG_PACKAGE_mtr=y
- CONFIG_PACKAGE_privoxy=y
 #插件调整
 CONFIG_PACKAGE_luci-proto-wireguard=y
 CONFIG_PACKAGE_luci-app-dockerman=y
 CONFIG_PACKAGE_luci-app-ddns-go=y
 CONFIG_PACKAGE_luci-app-udpxy=y
 CONFIG_PACKAGE_luci-app-ttyd=y
-CONFIG_PACKAGE_luci-app-privoxy=y
 #Passwall
 CONFIG_PACKAGE_luci-app-passwall=y
 CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Haproxy=n
