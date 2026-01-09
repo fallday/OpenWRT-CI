@@ -107,3 +107,15 @@ if [ -d *"luci-app-netspeedtest"* ]; then
 
 	cd $PKG_PATH && echo "netspeedtest has been fixed!"
 fi
+
+#修改nginx默认端口
+
+NGINX_CONFIG="../feeds/packages/net/nginx-util/files/nginx.config"
+if [ -f "$NGINX_CONFIG" ]; then
+	echo " "
+
+	sed -i 's/80/8080/g' $NGINX_CONFIG
+	sed -i 's/443/8443/g' $NGINX_CONFIG
+
+	cd $PKG_PATH && echo "nginx default port has been changed!"
+fi
