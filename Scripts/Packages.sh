@@ -77,7 +77,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 # custom package
 UPDATE_PACKAGE "rtp2httpd" "stackia/rtp2httpd" "main"
-UPDATE_PAKCAGE "adguardhome" "kenzok8/small-package" "main" "" "adguardhome luci-app-adguardhome"
+UPDATE_PACKAGE "adguardhome" "kenzok8/small-package" "main" "" "adguardhome luci-app-adguardhome"
 
 #更新软件包版本
 UPDATE_VERSION() {
