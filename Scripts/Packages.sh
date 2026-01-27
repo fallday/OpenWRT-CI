@@ -77,7 +77,6 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 # custom package
 UPDATE_PACKAGE "rtp2httpd" "stackia/rtp2httpd" "main"
-UPDATE_PACKAGE "luci-app-adguardhome" "ZqinKing/luci-app-adguardhome" "main"
 
 #更新软件包版本
 UPDATE_VERSION() {
