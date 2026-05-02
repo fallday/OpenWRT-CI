@@ -79,6 +79,9 @@ UPDATE_PACKAGE "timecontrol" "sirpdboy/luci-app-timecontrol" "main"
 UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "gecoosac luci-app-timewol luci-app-wolplus"
 UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
+# custom package
+UPDATE_PACKAGE "rtp2httpd" "stackia/rtp2httpd" "v3.10.1"
+
 #更新软件包版本
 UPDATE_VERSION() {
 	local PKG_NAME=$1
