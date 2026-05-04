@@ -81,6 +81,7 @@ UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
 
 # custom package
 UPDATE_PACKAGE "rtp2httpd" "stackia/rtp2httpd" "v3.10.1"
+UPDATE_PACKAGE "passwall-packages" "Openwrt-Passwall/openwrt-passwall-packages" "main" "" "chinadns-ng dns2socks geoview hysteria ipt2socks microsocks naiveproxy shadow-tls shadowsocks-libev shadowsocks-rust shadowsocksr-libev simple-obfs sing-box tcping trojan-plus tuic-client v2ray-geodata v2ray-plugin xray-core xray-plugin"
 
 #更新软件包版本
 UPDATE_VERSION() {
